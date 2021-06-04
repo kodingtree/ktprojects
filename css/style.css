@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+    background-color: rgba(100, 162, 182, 0.868);
+    color: black ;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head-area {
+    position: sticky;
+    top: 20px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 500px;
+    padding: 5px 10px;
+    margin: 10px auto;
+}
+.head-area h3 {
+    font-family: 'Ubuntu', sans-serif;
+    /* color: inherit; */
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects {
+    /* background: linear-gradient(to right, #8f8f8d7e, #f0505362); */
+    background-color: rgba(245, 222, 179, 0.431);
+    min-height: 110px;
+    /* color: black; */
+    border: 2px solid blue;
+    width: 600px;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.projects a {
+    color: black;
+    font-size: 22px;
+    transition: .5s;
+}
+.projects a:hover {
+    color: rgb(181, 7, 7);
+}
+.projects p {
+    font-size: 18px;
+    /* color: rgb(209, 205, 205); */
+    margin-left: 20px;
+    margin-top: 10px;
+    /* color: rgb(216, 216, 216); */
+}
+.projects p::before{
+    content: '~   ';
+}

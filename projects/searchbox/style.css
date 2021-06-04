@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: burlywood;
+    background-color: cadetblue;
+    font-family: tahoma;
+       /* jsut */
+}
+
+.cont {
+    /* border: 2px solid red; */
+    padding: 15px;
+    z-index: 20;
+}
+
+.ktFlex {
+    /* height: 40vh; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.center-div {
+    position: relative;
+    background-color: rgb(31, 31, 31);
+    height: 60px;
+    width: 600px;
+    /* border: 2px solid red; */
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: all 1.5s;
+    z-index: 5;
+}
+
+.center-div input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    background-color: inherit;
+    border: none;
+    color: rgb(201, 196, 196);
+    font-size: 20px;
+
+}
+
+.ktfa {
+    font-size: 25px;
+    color:red;
+    position: absolute;
+    right: 35px;
+    top: 19px;
+    /* z-index: -; */
+}
+
+/* For the transitions */
+
+.toggle .center-div {
+    width: 60px;
+}
+
+.toggle .center-div input {
+    display: none;
+}
+
+.toggle .center-div .ktfa {
+    right: 18px;
+}
+#msg {
+    margin-top: 300px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon">
+    <title>Live Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Live Input Data using JavaScript</h2>
+    </div>
+
+    <div class="content">
+        <form action="">
+            <input type="text" name="" id="name" autocomplete="off" placeholder="Enter some text here" onkeydown="ktdown()" onkeyup="ktup()" >
+
+        </form>
+    </div>
+
+    <div class="result">
+        <h4>Status : <p id="status"> your status will be updated here</p></h4>
+        <h3>Your are writing the following</h3>
+        <p id="resultarea">This will be edited when you start typing</p>
+    </div>
+    <!-- <button id="testbtn" onclick="ktup()">Click me</button> -->
+
+<script src="main.js"></script>
+
+</body>
+</html>
