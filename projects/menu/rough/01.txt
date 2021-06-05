@@ -1,0 +1,102 @@
+.fSize17 {
+    font-size: 17;
+}
+.fSize18 {
+    font-size: 18;
+}
+.fSize19 {
+    font-size: 19;
+}
+.fSize20 {
+    font-size: 20;
+}
+.fSize21 {
+    font-size: 21;
+}
+.fSize22 {
+    font-size: 22;
+}
+.fSize23 {
+    font-size: 23;
+}
+.fSize24 {
+    font-size: 24;
+}
+.fSize25 {
+    font-size: 25;
+}
+.fSize26 {
+    font-size: 26;
+}
+.fSize27 {
+    font-size: 27;
+}
+.fSize28 {
+    font-size: 28;
+}
+.fSize29 {
+    font-size: 29;
+}
+.fSize30 {
+    font-size: 30;
+}
+.fSize31 {
+    font-size: 31;
+}
+.fSize32 {
+    font-size: 32;
+}
+.fSize33 {
+    font-size: 33;
+}
+.fSize34 {
+    font-size: 34;
+}
+.fSize35 {
+    font-size: 35;
+}
+.fSize36 {
+    font-size: 36;
+}
+.fSize37 {
+    font-size: 37;
+}
+.fSize38 {
+    font-size: 39;
+}
+.fSize40 {
+    font-size: 40;
+}
+.fSize41 {
+    font-size: 41;
+}
+.fSize42 {
+    font-size: 42;
+}
+.fSize43 {
+    font-size: 43;
+}
+.fSize44 {
+    font-size: 44;
+}
+.fSize45 {
+    font-size: 45;
+}
+.fSize46 {
+    font-size: 46;
+}
+.fSize47 {
+    font-size: 47;
+}
+.fSize48 {
+    font-size: 48;
+}
+.fSize49 {
+    font-size: 49;
+}
+.fsize50{
+    font-size: 50 !important;
+}
+.fSize51 {
+    font-size: 51;
+}
